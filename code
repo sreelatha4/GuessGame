@@ -1,0 +1,8 @@
+import random
+a=random.randint(0,100)
+user=int(input("enter a number from 0-100 :"))
+print("the computer guess is :",a)
+if(a==user):
+    print("a & expectation are same")
+else:
+    print("a & expectation are different")
